@@ -25,4 +25,5 @@ jobs:
         env:
           LOGIN: ${{ secrets.LOGIN }}
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: python autoscraper.py
+        run: python open_kbtu.py
+        
