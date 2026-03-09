@@ -25,4 +25,4 @@ jobs:
         env:
           LOGIN: ${{ secrets.LOGIN }}
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: python main.py
+        run: python autoscraper.py
